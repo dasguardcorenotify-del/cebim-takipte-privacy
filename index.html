@@ -7,21 +7,22 @@
   <style>
     :root {
       color-scheme: dark;
-      --bg: #050b16;
-      --card: #0d1626;
-      --border: #263650;
+      --bg: #0c1118;
+      --card: #141b24;
+      --border: #344252;
       --text: #f7faff;
       --muted: #b7c2d5;
-      --accent: #1677ff;
-      --accent2: #31c7f5;
+      --accent: #438ff1;
+      --accent2: #2bb7a2;
+      --accent3: #e98266;
     }
 
     body {
       margin: 0;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background:
-        radial-gradient(circle at top left, rgba(22,119,255,.20), transparent 35%),
-        radial-gradient(circle at bottom right, rgba(49,199,245,.10), transparent 32%),
+        linear-gradient(120deg, rgba(67,143,241,.12), transparent 34%),
+        linear-gradient(300deg, rgba(43,183,162,.09), rgba(233,130,102,.05) 40%, transparent 58%),
         var(--bg);
       color: var(--text);
       line-height: 1.65;
@@ -34,7 +35,7 @@
     }
 
     .card {
-      background: linear-gradient(180deg, rgba(17,29,51,.97), rgba(7,17,32,.97));
+      background: linear-gradient(180deg, rgba(27,37,49,.98), rgba(20,27,36,.98));
       border: 1px solid var(--border);
       border-radius: 24px;
       padding: 28px;
@@ -56,16 +57,16 @@
       display: block;
       margin: 14px 0;
       padding: 16px 18px;
-      border: 1px solid rgba(22,119,255,.38);
+      border: 1px solid rgba(67,143,241,.38);
       border-radius: 16px;
       color: var(--text);
       text-decoration: none;
-      background: rgba(22,119,255,.09);
+      background: rgba(67,143,241,.09);
     }
 
     a:hover {
-      border-color: rgba(49,199,245,.72);
-      background: rgba(22,119,255,.15);
+      border-color: rgba(43,183,162,.72);
+      background: rgba(67,143,241,.15);
     }
 
     a strong {
